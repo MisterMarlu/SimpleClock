@@ -1,0 +1,11 @@
+#clock {
+  display: inline-block;
+  margin: auto;
+  position: relative;
+}
+
+.dot:after {
+  content: ':';
+  position: absolute;
+  right: calc(50% - 1px);
+}
